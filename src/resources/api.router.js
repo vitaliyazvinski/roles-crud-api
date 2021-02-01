@@ -29,7 +29,7 @@ router.post(
   shoppingListItemController.createOrUpdate
 );
 router.delete(
-  '/shopping-list-item',
+  '/shopping-list-item/:id',
   ensureOwnerAuthorizated,
   shoppingListItemController.deleteById
 );

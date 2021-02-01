@@ -89,11 +89,11 @@ POST: /api/shopping-list-item
 ```
 
 ```
-DELETE: /api/shopping-list
+DELETE: /api/shopping-list/:id
 ```
 
 ```
-DELETE: /api/shopping-list-item
+DELETE: /api/shopping-list-item/:id
 ```
 
 `POST` requests to the entities either create a new entity instance or update existing one by checking `id` field:
